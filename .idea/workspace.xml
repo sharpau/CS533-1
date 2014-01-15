@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03229d04-2cc1-461d-97b1-2973a4a3d028" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS533-1.py" afterPath="$PROJECT_DIR$/CS533-1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdp.py" afterPath="$PROJECT_DIR$/mdp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple.txt" afterPath="$PROJECT_DIR$/simple.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CS533-1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="CS533-1.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CS533-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="53" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.37091503" vertical-offset="334" max-vertical-offset="986">
+            <state line="24" column="0" selection-start="834" selection-end="834" vertical-scroll-proportion="0.52287585" vertical-offset="88" max-vertical-offset="986">
               <folding>
                 <element signature="e#73#88#0" expanded="true" />
               </folding>
@@ -40,7 +41,7 @@
       <file leaf-file-name="mdp.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mdp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="33" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="646">
+            <state line="15" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -64,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mdp.py" />
         <option value="$PROJECT_DIR$/CS533-1.py" />
+        <option value="$PROJECT_DIR$/mdp.py" />
       </list>
     </option>
   </component>
@@ -316,7 +317,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -326,7 +327,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30952382" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30952382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30952382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -365,14 +366,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mdp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="33" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="646">
+        <state line="15" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CS533-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="53" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.37091503" vertical-offset="334" max-vertical-offset="986">
+        <state line="24" column="0" selection-start="834" selection-end="834" vertical-scroll-proportion="0.52287585" vertical-offset="88" max-vertical-offset="986">
           <folding>
             <element signature="e#73#88#0" expanded="true" />
           </folding>
