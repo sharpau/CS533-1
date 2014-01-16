@@ -31,3 +31,10 @@ class MDP(object):
                 for j in range(self.num_states):
                     matrix.append([float(x) for x in in_file.readline().strip().split()])
                 self.transitions.append(matrix)
+
+        assert(self.num_states == len(self.rewards))
+        assert(self.num_actions == len(self.transitions))
+        for m in self.transitions:
+            assert(self.num_states == len(m))
+            for t in m:
+                assert(self.num_states == len(t))

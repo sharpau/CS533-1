@@ -21,7 +21,6 @@ def bellman_backup(mdp, value_k):
         actions.append(max_index)
         new_value_fn.append(mdp.rewards[s] + max_value)
 
-
     return new_value_fn, actions
 
 
@@ -36,7 +35,7 @@ def plan(mdp, horizon):
     policy = []
     # initialize at time-to-go 0 with reward of each state
     value_functions.append(mdp.rewards)
-    for i in range(horizon + 1):
+    for i in range(horizon):
         vals, actions = bellman_backup(mdp, value_functions[i])
         value_functions.append(vals)
         policy.append(actions)
@@ -44,10 +43,34 @@ def plan(mdp, horizon):
     return value_functions, policy
 
 
-"""
-Main program flow. Test plan() on two MDPs, each with two different time horizons.
-"""
+def show_plan(values, policy):
+    """
+    Pretty printing for a plan returned by plan(mdp, horizon)
+    """
+    print "Value function from time-to-go 0 up to " + str(len(values) - 1)
+    for i in range(len(values)):
+        print values[i]
+    print "Policy from time-to-go 1 up to " + str(len(values) - 1)
+    for i in range(len(policy)):
+        print policy[i]
 
-test = MDP("simple.txt")
-test.show()
-print plan(test, 3)
+
+# Main program flow. Test plan() on two MDPs, each with two different time horizons.
+
+mdp1 = MDP("mdp1.txt")
+values1, policy1 = plan(mdp1, 4)
+print "MDP 1 results for horizon = 4"
+show_plan(values1, policy1)
+
+values1, policy1 = plan(mdp1, 10)
+print "MDP 1 results for horizon = 10"
+show_plan(values1, policy1)
+
+mdp2 = MDP("mdp2.txt")
+values2, policy2 = plan(mdp2, 4)
+print "MDP 2 results for horizon = 4"
+show_plan(values2, policy2)
+
+values2, policy2 = plan(mdp2, 10)
+print "MDP 2 results for horizon = 10"
+show_plan(values2, policy2)
